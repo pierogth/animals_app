@@ -1,0 +1,31 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* Global Styles */
+
+
+/* * {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #616161;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+body {
+    margin: 0;
+}
+
+.dark {
+    --primary-color: #f9fafb;
+    --secondary-color: #f3f4f6;
+    color: #d6e0f3;
+    --border-color: #e5e7eb;
+    background-color: #1f2937;
+    --switch-checked-color: #2d3748;
+    --switch-unchecked-color: #f9fafb;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
